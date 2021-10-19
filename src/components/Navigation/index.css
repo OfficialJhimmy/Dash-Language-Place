@@ -1,0 +1,561 @@
+.hamburger-container,
+.header__container {
+  width: 100vw;
+  /* min-width: 1280px; */
+  margin: 0 auto;
+}
+
+.hamburger-wrapper,
+.header__wrapper {
+  padding: 0 48px;
+}
+
+.hamburger-wrapper {
+  position: relative;
+}
+
+.nav-header {
+  position: fixed;
+  width: 100%;
+  /* box-shadow: 0 1px 3px rgba(15, 15, 15, 0.13); */
+  height: 85px;
+  background: transparent;
+  z-index: 1000;
+}
+
+.active {
+  box-shadow: 0 1px 3px rgba(15, 15, 15, 0.13);
+  background: linear-gradient(
+    225deg,
+    hsla(186, 33%, 94%, 1) 0%,
+    hsla(216, 41%, 79%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    225deg,
+    hsla(186, 33%, 94%, 1) 0%,
+    hsla(216, 41%, 79%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    225deg,
+    hsla(186, 33%, 94%, 1) 0%,
+    hsla(216, 41%, 79%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#ebf4f5", endColorstr="#b5c6e0", GradientType=1 );
+}
+.inner-header {
+  position: relative;
+  z-index: 10;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dach__logo {
+  object-fit: contain;
+  width: 100px;
+  margin-top: -5px;
+}
+
+.menu-btn {
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  mix-blend-mode: difference;
+}
+
+.hamburger-menu {
+  display: none;
+  z-index: 9;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+.menu-secondary-background-color {
+  background: #191919;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+.menu-layer {
+  position: relative;
+  /* background: #e20001; */
+  background: linear-gradient(
+    225deg,
+    hsla(186, 33%, 94%, 1) 0%,
+    hsla(216, 41%, 79%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    225deg,
+    hsla(186, 33%, 94%, 1) 0%,
+    hsla(216, 41%, 79%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    225deg,
+    hsla(186, 33%, 94%, 1) 0%,
+    hsla(216, 41%, 79%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#ebf4f5", endColorstr="#b5c6e0", GradientType=1 );
+  height: 100%;
+  overflow: hidden;
+}
+
+.menu-city-background {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation-name: backgroundEffect;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+}
+
+.menu-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: 100px; /* changed here */
+}
+
+nav {
+  display: block;
+}
+
+ul {
+  margin: 0;
+  margin-top: 25px;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  /* font-size: 5rem; */
+  font-size: 3rem;
+  font-weight: 700;
+  cursor: pointer;
+  /* height: 135px; */
+  height: 100px;
+  overflow: hidden;
+  position: relative;
+  width: 700px;
+}
+
+.menu-links a {
+  position: absolute;
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #191919;
+}
+
+.info {
+  color: #fff;
+  width: 300px;
+}
+
+.info h3 {
+  font-size: 1.2rem;
+  margin: 8px auto;
+  color: #fff;
+  font-weight: 600;
+}
+
+.info p {
+  margin: 0 auto;
+  font-size: 0.8rem;
+  color: #fff;
+  font-weight: 600;
+}
+
+.locations {
+  position: absolute;
+  bottom: -50px;
+  color: #fff;
+  /* margin-top: 16px; */
+  margin-top: 9px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.locations span {
+  cursor: pointer;
+  font-weight: 400;
+  margin: 0 32px;
+  transition: 0.3s ease-in-out;
+}
+
+.locations span:hover {
+  /* color: #fff; */
+  background: #191919;
+  padding: 8px 24px;
+  border-radius: 4px;
+}
+
+.locations span:first-child {
+  margin-left: 64px;
+}
+
+@keyframes backgroundEffect {
+  0% {
+    background-position: 0% 0%;
+  }
+  25% {
+    background-position: 40% 10%;
+  }
+  50% {
+    background-position: 0 10%;
+  }
+  75% {
+    background-position: 10% 40%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+/* Media Query*/
+@media screen and (max-width: 680px) {
+  .hamburger-container,
+  .header__container {
+    width: 100vw;
+    max-width: 100vw;
+    margin: 0;
+  }
+
+  .hamburger-wrapper,
+  .header__wrapper {
+    padding: 0 10px;
+    width: 100vw;
+  }
+
+  .nav-header {
+    height: 60px;
+  }
+
+  .hamburger-wrapper {
+    position: relative;
+  }
+
+  .inner-header {
+    position: relative;
+    z-index: 10;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+  }
+
+  .dach__logo {
+    object-fit: contain;
+    width: 60px;
+    margin-top: -10px;
+  }
+
+  .menu-btn {
+    font-size: 0.8rem;
+    margin-right: 20px;
+    align-items: center;
+  }
+
+  .hamburger-menu {
+    display: none;
+    z-index: 9;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+  }
+
+  .menu-secondary-background-color {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+
+  .menu-layer {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    width: 100vw;
+  }
+
+  .menu-city-background {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    object-fit: contain;
+  }
+
+  .menu-links {
+    display: block;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    top: 88px; /* changed here */
+    padding-left: 15px;
+  }
+
+  nav {
+    display: block;
+  }
+
+  ul {
+    margin-top: 30px;
+    padding: 0;
+    justify-content: center;
+  }
+
+  li {
+    list-style: none;
+    font-size: 2rem;
+    font-weight: 700;
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+
+  .menu-links a {
+    position: absolute;
+  }
+
+  .info {
+    width: 100%;
+    margin-top: 40px;
+    padding-right: 10px;
+  }
+
+  .info h3 {
+    font-size: 14px;
+    margin: 8px 0;
+  }
+
+  .info p {
+    margin: 0;
+    font-size: 13px;
+  }
+
+  .locations {
+    position: static;
+    margin-top: 50px;
+    font-size: 0.7rem;
+    font-weight: 500;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .locations span {
+    font-weight: 400;
+    margin: 0;
+  }
+
+  .locations span:hover {
+    padding: 0;
+    border-radius: 0;
+    background-color: transparent;
+    color: #191919;
+  }
+
+  .locations span:first-child {
+    margin-left: 5px;
+  }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 700px) {
+  .hamburger-container,
+  .header__container {
+    width: 100vw;
+    max-width: 100vw;
+    margin: 0;
+  }
+
+  .hamburger-wrapper,
+  .header__wrapper {
+    padding: 0 10px;
+    width: 100vw;
+  }
+
+  .hamburger-wrapper {
+    position: relative;
+  }
+
+  .nav-header {
+    /* height: 80px; */
+  }
+  .inner-header {
+    position: relative;
+    z-index: 10;
+    /* height: 100px; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+  }
+
+  .dach__logo {
+    object-fit: contain;
+    width: 80px;
+    margin-top: -5px;
+  }
+
+  .menu-btn {
+    font-size: 0.8rem;
+    margin-right: 30px;
+  }
+
+  .hamburger-menu {
+    display: none;
+    z-index: 9;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+  }
+
+  .menu-secondary-background-color {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+
+  .menu-layer {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    width: 100vw;
+  }
+
+  .menu-city-background {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    object-fit: contain;
+  }
+
+  .menu-links {
+    display: block;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    top: 88px; /* changed here */
+  }
+
+  nav {
+    display: block;
+  }
+
+  ul {
+    margin-top: 50px;
+    padding: 0;
+    justify-content: center;
+  }
+
+  li {
+    list-style: none;
+    font-size: 3rem;
+    font-weight: 700;
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+
+  .menu-links a {
+    position: absolute;
+  }
+
+  .info {
+    width: 100%;
+    margin-top: 20px;
+    padding-right: 20px;
+  }
+
+  .info h3 {
+    font-size: 18px;
+    margin: 8px 0;
+  }
+
+  .info p {
+    margin: 0;
+    font-size: 15px;
+  }
+
+  .locations {
+    position: static;
+    margin-top: 50px;
+    font-size: 1rem;
+    font-weight: 500;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .locations span {
+    font-weight: 500;
+    margin: 0;
+  }
+
+  .locations span:hover {
+    padding: 0;
+    border-radius: 0;
+    background-color: transparent;
+    color: #191919;
+  }
+
+  .locations span:first-child {
+    margin-left: 5px;
+  }
+}

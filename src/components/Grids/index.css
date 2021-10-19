@@ -1,0 +1,477 @@
+/* Grid 4 x 4 */
+.parent {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 25px;
+  grid-row-gap: 0px;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.grid__child {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 10px;
+  align-items: center;
+  text-align: center;
+}
+
+.parent__children {
+  text-align: center;
+  padding: 10px 20px;
+  border: none;
+  /* background: #f9f4ef; */
+  /* box-shadow: 0 1px 3px rgba(15, 15, 15, 0.13); */
+  /* box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1); */
+  border-radius: 6px;
+}
+
+.parent__children div,
+.grid__wrapper div {
+  display: flex;
+  justify-content: center;
+}
+
+.grid__icon-wrapper,
+.small-border-radius {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 34% 64% 77% 26% / 73% 54% 45% 19%;
+}
+
+.parent__children p,
+.grid__wrapper p {
+  text-align: left;
+}
+
+.grid__wrapper p {
+  padding: 0 7px;
+}
+
+.grid__icon-wrapper {
+  width: 80px;
+  height: 80px;
+}
+
+.small-border-radius {
+  width: 70px;
+  height: 70px;
+}
+
+.grid-a {
+  background: #6d7c8b;
+}
+
+.grid-b {
+  background: #316a74;
+}
+
+.grid-c {
+  background: #23434f;
+}
+
+.grid-d {
+  background: #1597b0;
+}
+
+.grid__icon {
+  height: 40px;
+  width: 40px;
+  color: #f9f4ef;
+}
+
+.small-grid__icon {
+  height: 30px;
+  width: 30px;
+  color: #f9f4ef;
+}
+
+/* Grid 2x2*/
+
+.p-top {
+  padding: 100px 0;
+}
+
+.p-top-2 {
+  margin-top: 20px;
+  padding: 50px 10px 0 10px;
+  align-items: center;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  background: linear-gradient(
+    225deg,
+    hsla(186, 33%, 94%, 1) 0%,
+    hsla(216, 41%, 79%, 1) 80%
+  );
+
+  background: -moz-linear-gradient(
+    225deg,
+    hsla(186, 33%, 94%, 1) 0%,
+    hsla(216, 41%, 79%, 1) 80%
+  );
+
+  background: -webkit-linear-gradient(
+    225deg,
+    hsla(186, 33%, 94%, 1) 0%,
+    hsla(216, 41%, 79%, 1) 80%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#ebf4f5", endColorstr="#b5c6e0", GradientType=1 );
+  display: flex;
+  align-items: center;
+}
+
+.grid__container {
+  display: flex;
+  align-items: center;
+}
+
+.grid__container__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.grid-right {
+  margin: 0 40px 0 0;
+}
+
+.grid__container__content {
+  /* align-items: center; */
+}
+
+.grid__learn-content {
+  align-items: center;
+}
+
+.grid__learn-content h3 {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.grid__wrapper {
+  margin-bottom: 15px;
+  margin-right: 20px;
+}
+
+.grid__img-container {
+  position: relative;
+}
+
+/* End of Grid 2x2*/
+
+/* REASONS GRID STYLING */
+.reasons__wrapper,
+.reasons-why__container {
+  display: flex;
+  align-items: center;
+}
+
+.reasons__container {
+  margin-top: 140px;
+  margin-bottom: 100px;
+}
+
+.reasons-why {
+  margin-right: 30px;
+}
+
+.reasons__wrapper {
+  margin-top: 40px;
+}
+
+.reasons-icon__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px;
+}
+
+.reasons-why__container {
+  margin: 20px 0;
+}
+
+.reasons__icon {
+  width: 30px;
+  height: 30px;
+  color: #238b77;
+}
+
+.reasons-why__content p {
+  padding-right: 50px;
+}
+
+.reasons-why__content h3 {
+  font-size: 16px;
+  margin-bottom: 3px;
+}
+
+/* END OF REASONS GRID STYLING */
+
+/* Why Language */
+.why-language {
+  margin-bottom: 100px;
+}
+
+.why-language h2 {
+  margin-bottom: 15px;
+}
+
+.why-info p {
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 680px) {
+  .parent {
+    display: block;
+    grid-row-gap: 10px;
+    grid-column-gap: 0px;
+    padding: 0 20px;
+  }
+
+  .grid__child {
+    display: block;
+  }
+
+  .parent__children {
+    padding: 20px 10px;
+    margin-bottom: 20px;
+  }
+
+  .grid__icon {
+    height: 30px;
+    width: 30px;
+  }
+
+  .small-grid__icon {
+    height: 25px;
+    width: 25px;
+  }
+
+  .grid__wrapper p {
+    text-align: center;
+  }
+
+  /* Grid 2x2 */
+  .p-top {
+    padding: 40px 0;
+  }
+
+  .p-top-2 {
+    margin-top: 20px;
+    padding: 30px 10px 0 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .grid__container {
+    display: block;
+    align-items: center;
+  }
+
+  .grid__container__column {
+    flex: 1;
+    /* margin: 0 40px 30px 0; */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .grid-right {
+    margin-bottom: 30px;
+  }
+
+  .grid__container__content {
+    /* Take available height */
+    flex: 1;
+    width: 100%;
+    align-items: center;
+  }
+
+  .grid__learn-content {
+    align-items: center;
+  }
+
+  .grid__img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .grid__img {
+    width: 65%;
+    height: 65%;
+  }
+
+  .grid__learn-content h3 {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+
+  .grid__container__column:first-child {
+    margin-right: 0;
+  }
+
+  .grid__container__column:last-child {
+    margin-right: 0;
+  }
+
+  .grid__wrapper {
+    margin-bottom: 30px;
+  }
+
+  .grid__wrapper h4 {
+    font-size: 15px;
+  }
+
+  /* */
+  .reasons__wrapper {
+    flex-direction: column-reverse;
+  }
+
+  .reasons-why__container {
+    display: flex;
+    align-items: center;
+  }
+
+  .reasons__container {
+    margin-top: 100px;
+    margin-bottom: 40px;
+  }
+
+  .reasons-img {
+    height: 80%;
+    width: 80%;
+  }
+
+  .reasons-why {
+    margin-right: 0;
+  }
+
+  .reasons__wrapper {
+    margin-top: 20px;
+  }
+
+  .reasons-icon__wrapper,
+  .reasons-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .reasons-icon__wrapper {
+    margin-right: 15px;
+  }
+
+  .reasons-why__container {
+    margin: 20px 0;
+  }
+
+  .reasons__icon {
+    width: 25px;
+    height: 25px;
+  }
+
+  .reasons-why__content p {
+    padding-right: 0px;
+  }
+
+  .reasons-why__content h3 {
+    font-size: 15px;
+    margin-bottom: 3px;
+  }
+  /* */
+}
+
+@media screen and (max-width: 1200px) and (min-width: 700px) {
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 25px;
+    grid-row-gap: 20px;
+    text-align: center;
+  }
+
+  .parent__children {
+    padding: 10px;
+  }
+
+  .parent__children h3 {
+    font-weight: 500;
+    margin: 20px 0;
+    font-size: 18px;
+  }
+
+  .parent__children p {
+    text-align: left;
+  }
+
+  .grid__icon {
+    height: 40px;
+    width: 40px;
+  }
+
+  .grid__wrapper {
+    margin-bottom: 30px;
+  }
+
+  .grid__wrapper p {
+    text-align: left;
+  }
+
+  .grid__container {
+    display: block;
+  }
+
+  .grid__container__column {
+    margin: 0 40px 40px 0;
+  }
+
+  .p-top-2 {
+    margin-top: 20px;
+    padding: 50px 10px 0 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .reasons__container {
+    margin-bottom: 60px;
+  }
+
+  .reasons__btn {
+    margin-top: 30px;
+  }
+
+  .reasons-why {
+    margin-right: 20px;
+  }
+
+  .reasons__wrapper {
+    margin-top: 30px;
+  }
+
+  .reasons-icon__wrapper {
+    margin-right: 20px;
+  }
+
+  .reasons-why__container {
+    margin: 20px 0;
+  }
+
+  .reasons__icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .reasons-why__content p {
+    padding-right: 20px;
+  }
+
+  .reasons-why__content h3 {
+    font-size: 15px;
+  }
+}

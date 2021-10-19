@@ -1,0 +1,35 @@
+.services__info-container {
+  margin-bottom: 100px;
+}
+
+.added-info-work-container {
+  margin: -60px 0 60px 0;
+}
+
+.added-info-work-container p {
+  margin-bottom: 10px;
+}
+
+.added-info-work-container h2 {
+  margin-bottom: 8px;
+}
+
+.added-info-work-container a,
+.added-info-work-container a:visited,
+.added-info-work-container a:active {
+  color: #238b77;
+}
+
+.summary {
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 680px) {
+  .services__info-container {
+    margin-bottom: 60px;
+  }
+
+  .summary {
+    margin-top: 18px;
+  }
+}

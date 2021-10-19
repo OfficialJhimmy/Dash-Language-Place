@@ -1,0 +1,224 @@
+.cards {
+  margin: 110px 0 100px 0;
+}
+
+.card__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  width: 100%;
+  margin: 30px 0;
+}
+
+.card__wrapper {
+  position: relative;
+  padding: 15px 15px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.flag-content,
+.card__duration,
+.card__top-details,
+.btn-card {
+  display: flex;
+  align-items: center;
+}
+
+.btn-card {
+  justify-content: center;
+}
+
+.card__duration {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 5px;
+}
+
+.card__flag {
+  margin-right: 10px;
+}
+
+.card__title h4 {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.card__bottom {
+  margin-top: 10px;
+}
+
+.card__price {
+  /* background: rgba(0, 0, 0, 0.3); */
+  background: #258f67;
+  color: #fff;
+  margin-left: 50px;
+
+  /* Center the price */
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+  /* Used to position the triangle */
+  position: relative;
+
+  /* Size */
+  height: 2rem;
+
+  /* Spacing */
+  padding: 0.25rem 0.5rem;
+}
+
+/* The triangle */
+.card__price::before {
+  content: "";
+
+  border-color: transparent #258f67 transparent transparent;
+  border-style: solid;
+  border-width: calc(2rem / 2) calc(2rem / 2) calc(2rem / 2) 0rem;
+
+  /* Position */
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  transform: translate(-100%, 0px);
+}
+
+/* The dot */
+.card__price::after {
+  content: "";
+
+  /* Make it like a cirle */
+  background: #fff;
+  border-radius: 9999rem;
+
+  /* Position */
+  left: 0;
+  position: absolute;
+  top: 50%;
+  transform: translate(-0.5rem, -50%);
+
+  /* Size */
+  height: 0.5rem;
+  width: 0.5rem;
+}
+
+.icon-clock {
+  width: 20px;
+  height: 20px;
+  margin-right: 3px;
+}
+
+.icon-cart {
+  width: 23px;
+  height: 23px;
+}
+
+.card__info p {
+  font-size: 13px;
+}
+
+.card__cart {
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 680px) {
+  .cards {
+    margin: 70px 0 40px 0;
+    overflow: hidden;
+  }
+
+  .card__container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: none;
+    grid-column-gap: 0;
+    grid-row-gap: 25px;
+    margin: 21px 0;
+  }
+
+  .card__top-details {
+    justify-content: space-between;
+  }
+
+  .card__wrapper {
+    position: relative;
+    padding: 11px 5px;
+  }
+
+  .card__duration {
+    margin-top: 5px;
+  }
+
+  .card__flag {
+    margin-right: 7px;
+  }
+
+  .card__title h4 {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .card__bottom {
+    margin-top: 10px;
+  }
+
+  .card__price {
+    background: #258f67;
+    color: #fff;
+    margin-left: 50px;
+    /* Size */
+    height: 1.4rem;
+    /* Spacing */
+    padding: 0.73rem 0.5rem;
+  }
+
+  /* The triangle */
+  .card__price::before {
+    border-width: calc(1.4rem / 2) calc(1.4rem / 2) calc(1.4rem / 2) 0rem;
+  }
+
+  /* The dot */
+  .card__price::after {
+    height: 0.3rem;
+    width: 0.3rem;
+  }
+
+  .icon-clock {
+    width: 17px;
+    height: 17px;
+    margin-right: 1.4px;
+  }
+
+  .icon-cart {
+    width: 22px;
+    height: 22px;
+  }
+
+  .card__cart {
+    /* position: absolute;
+    bottom: 13px;
+    right: 10px; */
+  }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 700px) {
+  .cards {
+    margin: 70px 0 60px 0;
+  }
+
+  .card__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    width: 100%;
+    margin: 30px 0;
+  }
+}

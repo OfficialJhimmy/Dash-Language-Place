@@ -1,13 +1,221 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;900&display=swap");
+
+*,
+*::after,
+*::before {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 11px;
+  height: 100%;
+  transform-origin: center right;
+  transition: transform 0.3s, opacity 0.3s;
+  opacity: 0;
+}
+
+::-webkit-scrollbar:hover {
+  transform: scaleX(1.45);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  opacity: 0.5;
+  width: 7px;
+  border-radius: 6px;
+  margin: 2px;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(transparent, #b3c5df);
+}
+
+:root {
+  --heading-primary: 22px;
+  --heading-secondary: 26px;
+  --heading-mobile: 18px;
+  --paragraph: 14px;
+  --line-height: 24px;
+  --padding-all: 100px 50px;
+  --padding-all-mobile: 50px 10px;
+  --btn-color: #009fff; /* fallback for old browsers */
+  --text-decoration: none;
+  --toastify-font-family: "Poppins", sans-serif;
+}
+
+/* Fonts */
+
+@font-face {
+  font-family: "Gilory Light";
+  src: url(./assets/font/Gilroy-Light.otf);
+}
+@font-face {
+  font-family: "Gilory Extra Bold";
+  src: url(./assets/font/Gilroy-ExtraBold.otf);
+}
+@font-face {
+  font-family: "Gilory Bold";
+  src: url(./assets/font/Gilroy-Medium.woff);
+}
+
+/* */
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+/* General Styles */
+body {
+  font-family: "Gilory Light";
+  overflow-x: hidden;
+  text-decoration: none;
+}
+img {
+  object-fit: contain;
+  max-width: 100%;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Gilory Bold";
+  color: #181441;
+}
+
+section {
+  padding: 100px 80px;
+  background: -webkit-linear-gradient(
+    to bottom left,
+    #eaeaea,
+    #dbdbdb,
+    #f2f2f2,
+    #ada996
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom left,
+    #eaeaea,
+    #dbdbdb,
+    #f2f2f2,
+    #ada996
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+p,
+span,
+button,
+footer h3 {
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  font-size: var(--paragraph);
+  color: hsl(237, 12%, 33%);
+  font-weight: 400;
+  line-height: 24px;
+}
+
+button {
+  color: hsl(237, 12%, 33%);
+  font-size: 14px;
+  line-height: 14px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.content__links,
+a {
+  text-decoration: var(--text-decoration);
+  color: inherit;
+}
+
+.heading-primary {
+  font-size: 20px;
+  margin-bottom: 11px;
+}
+
+.heading-secondary {
+  font-weight: 600;
+  margin: 20px 0;
+  font-size: 17px;
+}
+
+.home__title-paragraph {
+  font-size: 19px;
+  font-weight: 400;
+  /* color: #efc368; */
+  color: #f8b75d;
+
+  margin-bottom: 7px;
+}
+
+/* KeyFrames */
+
+@media screen and (max-width: 680px) {
+  section {
+    padding: 50px 20px;
+  }
+
+  p {
+    line-height: 24px;
+    font-size: 13px;
+  }
+
+  .heading-primary {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+
+  .heading-secondary {
+    font-weight: 600;
+    margin: 14px 0;
+    font-size: 15px;
+  }
+
+  .home__title-paragraph {
+    font-size: 15px;
+    font-weight: 400;
+  }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+  section {
+    padding: 50px 20px;
+  }
+
+  p {
+    line-height: 1.6;
+    font-size: 14px;
+  }
+
+  .heading-primary {
+    font-size: 17px;
+    margin-bottom: 8px;
+  }
+
+  .heading-secondary {
+    font-weight: 500;
+    margin: 14px 0;
+    font-size: 16px;
+  }
+
+  .home__title-paragraph {
+    font-size: 15px;
+    font-weight: 400;
+  }
 }
