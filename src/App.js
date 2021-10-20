@@ -20,6 +20,7 @@ import ScrollToTop from "./components/Scroll-to-top/index";
 import Cart from "./pages/Cart/Cart";
 import "./index.css";
 import "react-toastify/dist/ReactToastify.css";
+import Checkout from "./pages/Cart/Checkout";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -76,6 +77,9 @@ function App() {
               </Route>
               <Route exact path="/workandtraining">
                 <WorknTraining />
+              </Route>
+              <Route exact path="/checkout">
+                <Checkout />
               </Route>
               <Route exact path="*">
                 <Error404 />

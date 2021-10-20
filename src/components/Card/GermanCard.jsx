@@ -1,6 +1,4 @@
-import React, { useEffect } from "react";
-import Aos from "aos";
-import "aos/dist/aos.css";
+import React from "react";
 import { useDispatch } from "react-redux";
 import { useHistory } from "react-router";
 import ReactCountryFlag from "react-country-flag";
@@ -20,14 +18,10 @@ function GermanCard() {
     dispatch(addToCart(product));
     history.push("/cart");
   };
-
-  useEffect(() => {
-    Aos.init({ duration: 2000 });
-  }, []);
   return (
     <>
       {GermanData?.map((product) => (
-        <div data-aos="fade-right" className="card__wrapper" key={product.id}>
+        <div className="card__wrapper" key={product.id}>
           <div className="card__top">
             <div className="card__top-details">
               <div className="flag-content">

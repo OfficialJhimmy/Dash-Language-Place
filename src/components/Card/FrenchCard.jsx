@@ -1,22 +1,14 @@
-import React, { useEffect } from "react";
-import Aos from "aos";
-import "aos/dist/aos.css";
+import React from "react";
 import { useDispatch } from "react-redux";
 import { useHistory } from "react-router";
 import ReactCountryFlag from "react-country-flag";
-
 import { FcClock } from "react-icons/fc";
 import { GrCart } from "react-icons/gr";
-
 import { FrenchData } from "../../data/ProductData/FrenchData";
 import "./index.css";
 import { addToCart } from "../../features/cartSlice";
 
 function FrenchCard() {
-  useEffect(() => {
-    Aos.init({ duration: 2000 });
-  }, []);
-
   const dispatch = useDispatch();
   const history = useHistory();
 

@@ -209,12 +209,11 @@
 @media screen and (max-width: 680px) {
   .cart-icon__container {
     position: fixed;
-    bottom: 10vh;
+    bottom: 8vh;
     right: 20px;
     width: 80px;
     height: 80px;
     overflow: hidden;
-    /* display: none; */
   }
 
   .cart-icon__container a {

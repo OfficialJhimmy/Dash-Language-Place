@@ -1,6 +1,4 @@
-import React, { useEffect } from "react";
-import Aos from "aos";
-import "aos/dist/aos.css";
+import React from "react";
 import { useHistory } from "react-router";
 import { useDispatch } from "react-redux";
 import ReactCountryFlag from "react-country-flag";
@@ -13,10 +11,6 @@ import "./index.css";
 import { addToCart } from "../../features/cartSlice";
 
 function HomeCard() {
-  useEffect(() => {
-    Aos.init({ duration: 2000 });
-  }, []);
-
   const dispatch = useDispatch();
   const history = useHistory();
 
@@ -27,7 +21,7 @@ function HomeCard() {
   return (
     <>
       {HomeData?.map((product, id) => (
-        <div data-aos="fade-right" className="card__wrapper" key={product.id}>
+        <div className="card__wrapper" key={product.id}>
           <div className="card__top">
             <div className="card__top-details">
               <div className="flag-content">

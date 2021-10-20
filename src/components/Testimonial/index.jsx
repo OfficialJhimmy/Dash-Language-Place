@@ -1,15 +1,9 @@
-import React, { useEffect } from "react";
-import Aos from "aos";
-import "aos/dist/aos.css";
+import React from "react";
 import Slider from "react-slick";
 import "./index.css";
 import { TestimonialData } from "../../data/TestimonialData";
 
 function Testimonial() {
-  useEffect(() => {
-    Aos.init({ duration: 2000 });
-  }, []);
-
   const settings = {
     dots: true,
     lazyLoad: true,
@@ -21,7 +15,7 @@ function Testimonial() {
   };
   return (
     <>
-      <div data-aos="fade-left" className="testimonial">
+      <div className="testimonial">
         <h2 className="heading-primary">
           No need to brag, but see what others are saying about us!
         </h2>

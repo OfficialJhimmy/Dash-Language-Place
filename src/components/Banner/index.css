@@ -182,13 +182,6 @@
   padding-right: 50px;
 }
 
-.nations-flag {
-  animation-name: bounce;
-  animation-timing-function: linear;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-}
-
 /*  Services Banner*/
 @media (prefers-reduced-motion: no-preference) {
   .icon__tools {
@@ -227,17 +220,6 @@
     transform: translateX(0px);
   }
 }
-@keyframes bounce {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-100px);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
 
 @keyframes icon-spin {
   from {
@@ -254,19 +236,26 @@
   }
 }
 /* MEDIA QUERY*/
-@media screen and (max-width: 1020px) {
-  .banner__wrapper {
-    /* height: 100%;
-    width: 100%; */
+@media screen and (max-width: 680px) {
+  .banner__content {
+    margin-top: 50px;
+  }
+  .banner__image-wrapper {
+    display: none;
   }
 
+  .banner__image {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1020px) {
   .socials__wrapper {
     display: none;
   }
 
   .banner__content-container {
     flex-direction: column-reverse;
-    /* padding: 220px 0 5px; */
     padding: 80px 0 5px;
     width: 100%;
   }
@@ -295,6 +284,7 @@
 
   .banner__content h2 {
     font-size: 25px;
+    align-items: center;
   }
 
   .banner__content p {

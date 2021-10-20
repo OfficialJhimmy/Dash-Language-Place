@@ -105,7 +105,11 @@ function Cart() {
                 <span>Subtotal</span>
                 <span className="amount">&#x20A6; {cart.cartTotalAmount}</span>
               </div>
-              <button className="checkout-button">Check Out</button>
+
+              <Link to="/checkout">
+                <button className="checkout-button">Check Out</button>
+              </Link>
+
               <div className="continue-shopping">
                 <Link to="/our-courses">
                   <Button title="Continue shopping" />

@@ -16,7 +16,7 @@ function Index() {
       <div className="card__container">
         <HomeCard />
       </div>
-      <div data-aos="zoom-in" className="btn-card">
+      <div className="btn-card">
         <Link to="/our-courses">
           <Button title="View All Courses" />
         </Link>

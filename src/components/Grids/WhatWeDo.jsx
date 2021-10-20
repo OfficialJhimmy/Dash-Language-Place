@@ -1,6 +1,4 @@
-import React, { useEffect } from "react";
-import Aos from "aos";
-import "aos/dist/aos.css";
+import React from "react";
 import { HiOutlineLightBulb } from "react-icons/hi";
 import { Link } from "react-router-dom";
 import Job from "../../assets/images/Resume review.png";
@@ -12,12 +10,8 @@ import Button from "../Button/Button";
 import "./WhatWeDo.css";
 
 function WhatWeDo() {
-  useEffect(() => {
-    Aos.init({ duration: 2000 });
-  }, []);
-
   return (
-    <div data-aos="fade-down" className="whatwedo">
+    <div className="whatwedo">
       <h2 className="heading-primary">
         What do We do?{" "}
         <span>
@@ -29,7 +23,7 @@ function WhatWeDo() {
         dolorem impedit vel similique error porro.
       </p>
       <div className="whatwedo__parent">
-        <div data-aos="fade-up" className="whatwedo-wrapper">
+        <div className="whatwedo-wrapper">
           <Link to="/translation-of-documents">
             <div className="whatwedo__image-wrapper">
               <img
@@ -46,7 +40,7 @@ function WhatWeDo() {
             </p>
           </Link>
         </div>
-        <div data-aos="fade-up" className="whatwedo-wrapper">
+        <div className="whatwedo-wrapper">
           <Link to="/our-courses">
             <div className="whatwedo__image-wrapper">
               <img
@@ -63,7 +57,7 @@ function WhatWeDo() {
             </p>
           </Link>
         </div>
-        <div data-aos="fade-up" className="whatwedo-wrapper">
+        <div className="whatwedo-wrapper">
           <Link to="/admission">
             <div className="whatwedo__image-wrapper">
               <img
@@ -80,7 +74,7 @@ function WhatWeDo() {
             </p>
           </Link>
         </div>
-        <div data-aos="fade-up" className="whatwedo-wrapper">
+        <div className="whatwedo-wrapper">
           <Link to="/exam-preparation">
             <div className="whatwedo__image-wrapper">
               <img
@@ -97,7 +91,7 @@ function WhatWeDo() {
             </p>
           </Link>
         </div>
-        <div data-aos="fade-up" className="whatwedo-wrapper">
+        <div className="whatwedo-wrapper">
           <Link to="/workandtraining">
             <div className="whatwedo__image-wrapper">
               <img
