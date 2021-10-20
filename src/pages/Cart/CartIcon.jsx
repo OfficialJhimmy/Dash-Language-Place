@@ -1,7 +1,6 @@
 import React from "react";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
-// import { HiShoppingCart } from "react-icons/hi";
 import { BsFillBagFill } from "react-icons/bs";
 import "./index.css";
 
