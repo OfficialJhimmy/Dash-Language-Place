@@ -6,19 +6,19 @@
   background: linear-gradient(
     225deg,
     hsla(186, 33%, 94%, 1) 0%,
-    hsla(216, 41%, 79%, 1) 100%
+    hsla(216, 41%, 79%, 1) 10% /* 100*/
   );
 
   background: -moz-linear-gradient(
     225deg,
     hsla(186, 33%, 94%, 1) 0%,
-    hsla(216, 41%, 79%, 1) 100%
+    hsla(216, 41%, 79%, 1) 10%
   );
 
   background: -webkit-linear-gradient(
     225deg,
     hsla(186, 33%, 94%, 1) 0%,
-    hsla(216, 41%, 79%, 1) 100%
+    hsla(216, 41%, 79%, 1) 10%
   );
 
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#ebf4f5", endColorstr="#b5c6e0", GradientType=1 );
@@ -26,7 +26,8 @@
 
 .banner__content-container {
   display: flex;
-  padding: 100px 90px;
+  /* padding: 100px 90px; */
+  padding: 140px 90px 0 90px;
   justify-content: space-between;
   align-items: center;
   width: 100%;
@@ -45,7 +46,8 @@
 }
 
 .banner__image {
-  animation: slideIn 1.5s ease-in-out forwards;
+  /* animation: slideIn 1.5s ease-in-out forwards; */
+  animation: icon-spin infinite 20s linear;
 }
 
 .banner__content {
@@ -150,19 +152,19 @@
   background: linear-gradient(
     225deg,
     hsla(186, 33%, 94%, 1) 0%,
-    hsla(216, 41%, 79%, 1) 100%
+    hsla(216, 41%, 79%, 1) 10% /* 100*/
   );
 
   background: -moz-linear-gradient(
     225deg,
     hsla(186, 33%, 94%, 1) 0%,
-    hsla(216, 41%, 79%, 1) 100%
+    hsla(216, 41%, 79%, 1) 10%
   );
 
   background: -webkit-linear-gradient(
     225deg,
     hsla(186, 33%, 94%, 1) 0%,
-    hsla(216, 41%, 79%, 1) 100%
+    hsla(216, 41%, 79%, 1) 10%
   );
 
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#ebf4f5", endColorstr="#b5c6e0", GradientType=1 );
@@ -236,7 +238,7 @@
   }
 }
 /* MEDIA QUERY*/
-@media screen and (max-width: 680px) {
+/* @media screen and (max-width: 680px) {
   .banner__content {
     margin-top: 100px;
   }
@@ -247,7 +249,7 @@
   .banner__image {
     display: none;
   }
-}
+} */
 
 @media screen and (max-width: 1020px) {
   .socials__wrapper {
@@ -256,7 +258,7 @@
 
   .banner__content-container {
     flex-direction: column-reverse;
-    padding: 80px 0 5px;
+    padding: 125px 0 5px; /* from 80px*/
     width: 100%;
   }
 
