@@ -5,7 +5,7 @@ export const FrenchData = [
     price: 65000,
     duration: "9 Weeks",
     about:
-      "A1 is an Introduction course to French Language. It is basically for beginners. In this course, you will learn how ro read fluently.You will also build your grammar skills and increase your vocabulary.",
+      "A1 is an introductory course for Beginners. In this course, you will learn to read comprehensibly, build your grammatical skills and expand your vocabulary.",
     id: 2,
   },
   {
@@ -24,7 +24,7 @@ export const FrenchData = [
     price: 70000,
     duration: "9 Weeks",
     about:
-      "B1 is an Intermediate course. You learn writing, reading, listening and speaking complex words. At this stage, you have a command of the essentials of the language.",
+      "B1 is an intermediate course that extensively helps you learn to write, read, understand and speak complex vocabularies. At this stage, you have a command of the essentials of the language.",
     id: 6,
   },
 

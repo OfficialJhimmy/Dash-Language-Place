@@ -8,7 +8,7 @@ export const TestimonialData = [
   {
     fullName: "Ezuagi Emil",
     review:
-      "DASH language school has brought out the best german in me. I passed my B1 exams in just one seat.  I can hear, speak, and write the German language perfectly...It's d best school I know so far. DANKE SCHÖN DASH.",
+      "DASH language school brought out the best in me. I passed my B1 exams in just a seating! I understand, speak and write Deutsch perfectly. They are the best so far... DANKE SCHÖN DASH!",
     img: emil,
   },
 
@@ -22,7 +22,7 @@ export const TestimonialData = [
   {
     fullName: "Chigbu Emmanuel",
     review:
-      "I'm a student of DASH LANGUAGE SCHOOL. The teachers in the school are the best part of the DASH LANGUAGE SCHOOL. They are very friendly and will make the GERMAN AND FRENCH languages look easy to learn. I would recommend DASH to other students because they will get to learn good traits and methods of learning foreign languages with ease. They have qualified teachers, understanding teachers and good facilities.",
+      "I'm a student of DASH LANGUAGE SCHOOL. The tutors are the best. They are approachable and they make the languages simpler. They are very friendly and will make the GERMAN AND FRENCH languages look easy to learn. I would recommend DASH anytime, anywhere to other students because they will get to learn good traits and methods of learning foreign languages with ease. They have qualified teachers, understanding teachers and good facilities.",
     img: chigbu,
   },
 

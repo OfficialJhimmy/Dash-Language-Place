@@ -23,8 +23,8 @@ function Grid4x4() {
 
           <h3 className="heading-secondary">Qualified Tutors</h3>
           <p>
-            At DASH, you will learn from the best teachers and be motivated to
-            move around the world and explore other people's ways of life.
+            At DASH, you will learn from the best tutors and be motivated to
+            explore customs from around the world.
           </p>
         </div>
 
@@ -50,8 +50,8 @@ function Grid4x4() {
           </div>
           <h3 className="heading-secondary">Trusted Courses</h3>
           <p>
-            Our Courses are affordable, comprehensive and trusted. With our sole
-            aim in giving you the best learning experience.
+            Our Courses are affordable, comprehensive and trusted. With the sole
+            aim of giving you the best learning experience.
           </p>
         </div>
 
@@ -63,8 +63,8 @@ function Grid4x4() {
           </div>
           <h3 className="heading-secondary">Personalized Learning</h3>
           <p>
-            At DASH, we have a modified learning plan on how to learn
-            effectively and faster than you ever imagine.
+            At DASH, we have a modified learning plan on how to help you learn
+            effectively and faster than you think
           </p>
         </div>
       </div>

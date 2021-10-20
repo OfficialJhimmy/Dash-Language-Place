@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { withRouter, Link } from "react-router-dom";
-import Logo from "../../assets/images/logo_thumb-removebg-preview.png";
+import Logo from "../../assets/images/dash language black.png";
+import { HiOutlineMenuAlt3 } from "react-icons/hi";
+import { IoIosExit } from "react-icons/io";
 
 import Hamburger from "./Hamburger";
 import "./index.css";
@@ -10,7 +12,8 @@ const Header = ({ history }) => {
   const [state, setState] = useState({
     initial: false,
     clicked: null,
-    menuName: "Menu",
+    // menuName: "Menu",
+    menuName: <HiOutlineMenuAlt3 />,
   });
   // State of our button
   const [disabled, setDisabled] = useState(false);
@@ -19,7 +22,7 @@ const Header = ({ history }) => {
   useEffect(() => {
     //Listening for page changes.
     history.listen(() => {
-      setState({ clicked: false, menuName: "Menu" });
+      setState({ clicked: false, menuName: <HiOutlineMenuAlt3 /> });
     });
   }, [history]);
 
@@ -30,17 +33,17 @@ const Header = ({ history }) => {
       setState({
         initial: null,
         clicked: true,
-        menuName: "Close",
+        menuName: <IoIosExit />,
       });
     } else if (state.clicked === true) {
       setState({
         clicked: !state.clicked,
-        menuName: "Menu",
+        menuName: <HiOutlineMenuAlt3 />,
       });
     } else if (state.clicked === false) {
       setState({
         clicked: !state.clicked,
-        menuName: "Close",
+        menuName: <IoIosExit />,
       });
     }
   };

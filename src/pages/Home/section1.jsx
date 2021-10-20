@@ -15,7 +15,7 @@ function Section1() {
         <p>
           Hallo! Bonjour! We are <b>DASH.</b> A <b>LANGUAGE SCHOOL</b> that
           helps people across all ages, groups, careers learn the Educational,
-          Cultural and Lingistic ways of some Deutsch and French-speaking
+          Cultural and Linguistic ways of some Deutsch and/or French-speaking
           countries like:
           <ReactCountryFlag
             countryCode="DE"

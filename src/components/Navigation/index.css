@@ -65,9 +65,10 @@
   background: none;
   outline: none;
   cursor: pointer;
-  font-size: 1rem;
+  font-size: 2.2rem;
   font-weight: 500;
   mix-blend-mode: difference;
+  /* color: ; */
 }
 
 .hamburger-menu {
@@ -280,8 +281,8 @@ a:hover {
   }
 
   .menu-btn {
-    font-size: 0.8rem;
-    margin-right: 20px;
+    font-size: 2rem;
+    margin-right: 10px;
     align-items: center;
   }
 

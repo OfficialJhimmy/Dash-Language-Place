@@ -25,8 +25,8 @@ function Grid2x2() {
               <p>
                 Learning a Foreign language with DASH will not only give you
                 more chances of getting a good job in your chosen career but
-                also give you more knowledge about other cultures and the world
-                at large.
+                also gives you broader knowledge and a deeper understanding of
+                cultural norms and values of other parts of the world.
               </p>
             </div>
 
@@ -79,8 +79,8 @@ function Grid2x2() {
 
               <h3 className="heading-secondary">Read</h3>
               <p>
-                You will learn to read comprehensive in your preferred choice of
-                language.
+                You will learn to read Comprehensively in your preferred choice
+                of language.
               </p>
             </div>
             <div data-aos="zoom-in" className="grid__wrapper">
@@ -92,8 +92,8 @@ function Grid2x2() {
 
               <h3 className="heading-secondary">Understand</h3>
               <p>
-                You will learn to understand through listening to native
-                speakers of your preferred choice of language.
+                You will learn to understand by listening to native speakers of
+                your preferred choice of language.
               </p>
             </div>
           </div>

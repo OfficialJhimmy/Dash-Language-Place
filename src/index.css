@@ -52,7 +52,6 @@ html {
   --padding-all-mobile: 50px 10px;
   --btn-color: #009fff; /* fallback for old browsers */
   --text-decoration: none;
-  --toastify-font-family: "Poppins", sans-serif;
 }
 
 /* Fonts */

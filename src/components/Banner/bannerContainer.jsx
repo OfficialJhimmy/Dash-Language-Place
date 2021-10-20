@@ -15,9 +15,9 @@ function BannerContainer() {
             <br />
           </h2>
           <p>
-            The New Way to Learn is properly with us. Join our community with
-            over 1000 students.Browse through our available courses and get
-            enrolled TODAY!
+            The best way to have a sound learning is to enroll with us. Join our
+            community with over 1000 students.Browse through our available
+            courses and get enrolled TODAY!
           </p>
           <Link to="/our-courses" className="content__links">
             <Button title="Our Courses" className="content__btn" />

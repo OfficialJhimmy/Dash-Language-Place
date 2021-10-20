@@ -150,7 +150,7 @@ footer a:hover {
 
 @media screen and (max-width: 680px) {
   footer {
-    padding: 40px 15px;
+    padding: 60px 15px;
   }
 
   .newsletter {
@@ -173,7 +173,7 @@ footer a:hover {
   .stay-connected,
   .our-vision {
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
 
   .copyright {

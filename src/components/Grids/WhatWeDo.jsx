@@ -19,8 +19,12 @@ function WhatWeDo() {
         </span>
       </h2>
       <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore
-        dolorem impedit vel similique error porro.
+        We teach and prepare our students for GERMAN (GOETHE ZERTIFIKAT) AND
+        FRENCH (DELF-DALF) International examinations from A1 to C1. We also
+        translate and transcribe your videos, Audios and documents from German
+        to English, French to English and your target language. Our other
+        services are admission processing to international universities, work
+        and training visa applications, and family reunion Visa applications.
       </p>
       <div className="whatwedo__parent">
         <div className="whatwedo-wrapper">
@@ -34,9 +38,8 @@ function WhatWeDo() {
             </div>
             <h4>Translation and Transcription of documents </h4>
             <p className="whatwedo-p">
-              Our extra translation and transcription services are what makes us
-              stand out from others. Check in with us today, if you're need of
-              this service.
+              Our translation and transcription services are what makes us stand
+              out. Check-in with us today if you need this service.
             </p>
           </Link>
         </div>
