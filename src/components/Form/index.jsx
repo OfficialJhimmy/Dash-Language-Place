@@ -45,7 +45,7 @@ const Form = ({ heading, value }) => {
         <div className="contact-us__form">
           <h2 className="heading-primary">{heading}</h2>
           {/* <form action="" onSubmit={sendEmail}> */}
-          <form method="POST" data-netlify="true" onSubmit={sendEmail}>
+          <form method="POST" data-netlify="true">
             <div className="inputBox">
               <input type="text" name="fullName" id="" required="required" />
               <span>Full Name</span>
