@@ -10,7 +10,7 @@ function Courses() {
   return (
     <>
       <ServicesdetailsBanner
-        heading="Hi, seems like we've got your attention! We've got amazing and comprehensive courses waiting for you"
+        heading="Hi! Seems we've got your attention. We've got amazing and comprehensive courses awaiting you"
         image={English}
       />
 

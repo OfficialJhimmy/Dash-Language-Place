@@ -28,7 +28,7 @@ function Footer() {
         </div>
         <div className="footer__information">
           <div className="keep-talking">
-            <h3>Let's Keep on talking</h3>
+            <h3>We are accessible</h3>
             <address>No 27, Iyun Road Stadium Hotel, Surulere Lagos.</address>
             <p>
               <a href="mailto:Dashlanguageschool@gmail.com">

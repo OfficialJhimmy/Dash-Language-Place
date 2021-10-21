@@ -32,7 +32,7 @@ function ReasonsGrid() {
               <div className="reasons-why__content">
                 <h3>Connect</h3>
                 <p>
-                  It helps in engaging and associating with different people
+                  It helps you to engage and associate with different people
                   from all over the world.
                 </p>
               </div>
@@ -58,8 +58,8 @@ function ReasonsGrid() {
               <div className="reasons-why__content">
                 <h3>Boost your Confidence</h3>
                 <p>
-                  It helps to bestow you with the confidence to relate to people
-                  from different cultures.
+                  It bestows you with the confidence to relate with people from
+                  different cultural backgrounds.
                 </p>
               </div>
             </div>
@@ -71,8 +71,8 @@ function ReasonsGrid() {
               <div className="reasons-why__content">
                 <h3>Become a Polygot</h3>
                 <p>
-                  It will improve your communication skills but also help to
-                  develop your mind and brain.
+                  It improves your communication skills and also helps to
+                  develop your mind.
                 </p>
               </div>
             </div>

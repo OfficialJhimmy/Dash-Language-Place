@@ -56,7 +56,7 @@ function SlideShow() {
 
   return (
     <div className="slider__wrapper">
-      <h2 className="heading-primary">Don't You just Love this</h2>
+      <h2 className="heading-primary">Don't you just love this?</h2>
       <p>
         Images of Beautiful Cities in GERMANY, FRANCE, AUSTRIA AND SWITZERLAND{" "}
       </p>

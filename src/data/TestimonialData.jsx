@@ -36,7 +36,7 @@ export const TestimonialData = [
   {
     fullName: "Racheal",
     review:
-      "At Dash Language School learning German and French is fun. It is a great experience for me and I am pleased. However German and French are difficult, But DASH makes it easy for me through their extraordinary teaching skill like:- listening to the text, working in groups, reading out dialogue, writing a letter, speaking to one another, and doing vocabulary tests. These aspects has helped me improve my language skills. A big thanks to their professional teacher for a job well done. You learn best and covienently at Dash Language School.",
+      "At DASH, learning is fun. Their extraordinary teaching skills such as group works, dialogues,  listening, vocabulary tests, letter writing helps to improve one's Learning. These aspects has helped me improve my learning skills. Big ups to DASH. You learn best and covienently at Dash Language School.",
     img: racheal,
   },
 ];

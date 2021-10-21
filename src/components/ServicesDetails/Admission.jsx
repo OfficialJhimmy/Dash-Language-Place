@@ -18,7 +18,7 @@ function Admission() {
       <section>
         <ServicesInfo
           heading="Sit back and relax while we help you out with your Admission Processing"
-          servicesabout="Do you intend to apply for Bachelor's degree, masters,  doctorate or a language course in German and French-speaking countries, DASH LANGUAGE SCHOOL will guide and process your all necessary document. We will help you to apply for any university and get your admission with ease. Your success is our priority."
+          servicesabout="Do you intend to apply for Bachelor's degree, masters,  doctorate or a language course in German and French-speaking countries, DASH LANGUAGE SCHOOL will guide and process your all necessary document. We will help you apply to any university of your choice and get your admission with ease. Your success is our priority."
         />
         <Form
           heading="Talk to us about this, and Book a slot now"

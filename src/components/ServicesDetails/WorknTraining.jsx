@@ -16,7 +16,7 @@ function WorknTraining() {
       <section>
         <ServicesInfo
           heading="Thinking about moving to Europe for work or Vocational Training?"
-          servicesabout="Let talk about some information you need to know about Vocational training in any German-speaking country.
+          servicesabout="Let's talk about some handy information about Vocational training in any German-speaking country.
           "
         />
         <AddedInfoTraining />

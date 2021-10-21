@@ -16,7 +16,7 @@ function ExamPreparation() {
       <section>
         <ServicesInfo
           heading="Let's give you that confidence needed to pass your German and French Language Exams with ease"
-          servicesabout="We prepare and guide our students at various International GOETHE ZERTIFIKAT AND DELF-DALF examinations on each level. The success of our students is paramount to us, that is why our well informed and trained teachers prepared and guide you diligently for the examinations."
+          servicesabout="We prepare and guide our students at various International GOETHE ZERTIFIKAT AND DELF-DALF examinations on each level. The success of our students is paramount to us, that  is why our well-informed and trained tutors prepare and guide you diligently for the examinations."
         />
         <Form
           heading="Talk to us about this, and Book a slot now"
