@@ -174,7 +174,7 @@ li {
   text-decoration: none;
 }
 
-a:hover {
+.menu-links a:hover {
   color: #191919;
 }
 
@@ -215,8 +215,8 @@ a:hover {
 }
 
 .locations span:hover {
-  /* color: #fff; */
-  background: #191919;
+  color: #fff;
+  /* background: #191919; */
   padding: 8px 24px;
   border-radius: 4px;
 }

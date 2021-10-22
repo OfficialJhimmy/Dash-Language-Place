@@ -14,7 +14,7 @@ function Checkout() {
     dispatch(getTotals());
   }, [dispatch, cart]);
 
-  const publicKey = "pk_test_3b4c4f0f2075dd94337f26448dfdd2d70e64fa1a";
+  const publicKey = "pk_live_5c748fe85a7b53ad502a2c19f73bfefe3fc9488f";
   const amount = cart.cartTotalAmount * 100; // Remember, set in kobo!
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");

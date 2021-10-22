@@ -17,10 +17,10 @@ const Form = ({ heading, value }) => {
 
     emailjs
       .sendForm(
-        "service_eu9tqtm",
-        "template_x3gzmto",
+        "service_gsa21eb",
+        "template_w10fkwj",
         e.target,
-        "user_sbyU4Dt8TSVqeFQYVAiXI"
+        "user_GESOWihEI9BnPy70m35to"
       )
       .then(
         (result) => {
@@ -52,12 +52,17 @@ const Form = ({ heading, value }) => {
 
             <div className="inputBox">
               <input type="text" name="reason" id="" required="required" />
-              <span>Subject Title</span>
+              <span>Reason for Contacting</span>
             </div>
 
             <div className="inputBox">
               <input type="email" name="email" id="" required="required" />
               <span>Email</span>
+            </div>
+
+            <div className="inputBox">
+              <input type="tel" name="phone" id="" required="required" />
+              <span>Phone Number</span>
             </div>
 
             <div className="inputBox">
