@@ -20,7 +20,7 @@ function HomeCard() {
   };
   return (
     <>
-      {HomeData?.map((product, id) => (
+      {HomeData?.map((product) => (
         <div className="card__wrapper" key={product.id}>
           <div className="card__top">
             <div className="card__top-details">

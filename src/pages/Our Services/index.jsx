@@ -7,7 +7,7 @@ import InformationBox from "../../components/Information-box";
 
 function OurServices() {
   return (
-    <div>
+    <>
       <ServicesBanner />
 
       <section>
@@ -20,7 +20,7 @@ function OurServices() {
         />
         <InformationBox />
       </section>
-    </div>
+    </>
   );
 }
 

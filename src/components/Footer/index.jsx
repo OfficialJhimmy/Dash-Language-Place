@@ -84,9 +84,16 @@ function Footer() {
         </div>
         <div className="copyright">
           <p>
-            &#169;2021. All rights reserved |
+            &#169;2022. All rights reserved |
             <span>
-              Developed by <a href="tel:+09057492540">JhimmyOfficial</a>
+              Developed by{" "}
+              <a
+                href="https://twitter.com/jhimmyofficial"
+                target="_blank"
+                rel="noreferrer"
+              >
+                JhimmyOfficial
+              </a>
             </span>
           </p>
         </div>

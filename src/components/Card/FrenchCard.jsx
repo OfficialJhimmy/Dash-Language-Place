@@ -18,7 +18,7 @@ function FrenchCard() {
   };
   return (
     <>
-      {FrenchData?.map((product, id) => (
+      {FrenchData?.map((product) => (
         <div data-aos="fade-right" className="card__wrapper" key={product.id}>
           <div className="card__top">
             <div className="card__top-details">

@@ -84,6 +84,7 @@ body {
   overflow-x: hidden;
   text-decoration: none;
 }
+
 img {
   object-fit: contain;
   max-width: 100%;
@@ -158,9 +159,7 @@ a {
 .home__title-paragraph {
   font-size: 19px;
   font-weight: 400;
-  /* color: #efc368; */
   color: #f8b75d;
-
   margin-bottom: 7px;
 }
 

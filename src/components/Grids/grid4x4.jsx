@@ -12,7 +12,7 @@ function Grid4x4() {
     Aos.init({ duration: 2000 });
   }, []);
   return (
-    <div>
+    <>
       <div className="parent">
         <div data-aos="fade-up" className="parent__children">
           <div>
@@ -68,7 +68,7 @@ function Grid4x4() {
           </p>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

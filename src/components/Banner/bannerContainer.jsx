@@ -5,7 +5,7 @@ import Button from "../Button/Button";
 
 function BannerContainer() {
   return (
-    <div>
+    <>
       <div className="banner__content-container">
         <div className="banner__content">
           <h2>
@@ -27,12 +27,12 @@ function BannerContainer() {
         <div className="banner__image-wrapper">
           <img
             src={BannerImage}
-            alt="of a student smiling"
+            alt="Map of the world"
             className="banner__image"
           />
         </div>
       </div>
-    </div>
+    </>
   );
 }
 
