@@ -20,7 +20,7 @@ function InformationBox() {
             <span>
               <BiPhoneCall className="icon__information-box" />
             </span>{" "}
-            <a href="tel:+234 7226 3905">Call us on this: +234 7226 3905</a>
+            <a href="tel:+2348072263905">Call us on this: +2348072263905</a>
           </div>
           <div className="information__box">
             <span>

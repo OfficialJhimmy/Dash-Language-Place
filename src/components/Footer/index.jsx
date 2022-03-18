@@ -43,7 +43,7 @@ function Footer() {
             <p>
               <BiPhoneOutgoing className="keep-talking__icon" />
               Please Stop by for further enquires or <br />
-              give us a Phonecall +234 7226 3905
+              give us a Phonecall +2348072263905
             </p>
           </div>
           <div className="stay-connected">
