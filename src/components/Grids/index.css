@@ -43,7 +43,8 @@
 
 .parent__children p,
 .grid__wrapper p {
-  text-align: left;
+  /* text-align: left; */
+  text-align: center;
 }
 
 .grid__wrapper p {

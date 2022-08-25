@@ -44,6 +44,43 @@ function Learn() {
               </div>
             </Link>
           </div>
+
+          <div className="learn__flags-content">
+            <Link to="/spanish" className="content__links">
+              <div className="flag display-flex">
+                <ReactCountryFlag
+                  countryCode="ES"
+                  svg
+                  style={{
+                    width: "2em",
+                    height: "2em",
+                  }}
+                  title="ES"
+                  className="flag"
+                />
+                <p>SPANISH</p>
+              </div>
+            </Link>
+          </div>
+
+          <div className="learn__flags-content">
+            <Link to="/portuguese" className="content__links">
+              <div className="flag display-flex">
+                <ReactCountryFlag
+                  countryCode="PT"
+                  svg
+                  style={{
+                    width: "2em",
+                    height: "2em",
+                  }}
+                  title="PT"
+                  className="flag"
+                />
+                <p>PORTUGUESE</p>
+              </div>
+            </Link>
+          </div>
+
         </div>
       </div>
     </>

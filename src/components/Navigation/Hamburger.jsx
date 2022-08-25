@@ -102,6 +102,28 @@ const Hamburger = ({ state }) => {
                       French
                     </Link>
                   </li>
+
+                  <li>
+                    <Link
+                      onMouseEnter={(e) => handleHover(e)}
+                      onMouseOut={(e) => handleHoverExit(e)}
+                      ref={(el) => (line1 = el)}
+                      to="/spanish"
+                    >
+                      Spanish
+                    </Link>
+                  </li>
+
+                  <li>
+                    <Link
+                      onMouseEnter={(e) => handleHover(e)}
+                      onMouseOut={(e) => handleHoverExit(e)}
+                      ref={(el) => (line1 = el)}
+                      to="/portuguese"
+                    >
+                      Portuguese
+                    </Link>
+                  </li>
                   <li>
                     <Link
                       onMouseEnter={(e) => handleHover(e)}

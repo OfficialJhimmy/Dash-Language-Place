@@ -19,10 +19,10 @@ function WhatWeDo() {
         </span>
       </h2>
       <p>
-        We teach and prepare our students for GERMAN (GOETHE ZERTIFIKAT) AND
-        FRENCH (DELF-DALF) International examinations from A1 to C1. We also
+        We teach and prepare our students for GERMAN (GOETHE ZERTIFIKAT),
+        FRENCH (DELF-DALF), SPANISH, AND PORTUGUESE International examinations from A1 to C1. We also
         translate and transcribe your videos, Audios and documents from German
-        to English, French to English and your target language. Our other
+        to English, French to English, Spanish to English, and Portuguese to English and your target language. Our other
         services are admission processing to international universities, work
         and training visa applications, and family reunion Visa applications.
       </p>
@@ -54,7 +54,7 @@ function WhatWeDo() {
             </div>
             <h4>Language Courses</h4>
             <p className="whatwedo-p">
-              We offer German and French language courses At each level. From A1
+              We offer German, French, Spanish, and Portuguese language courses at each level. From A1
               to C1. You will learn at your own pace for both online and
               physical classes.
             </p>
@@ -72,7 +72,7 @@ function WhatWeDo() {
             <h4>International Admission</h4>
             <p className="whatwedo-p">
               Do you intend to apply for Bachelor's degree, masters, doctorate
-              or a language course in German and French-speaking countries. Not
+              or a language course in German, French, Spanish, and Portuguese-speaking countries. Not
               to worry we've got you covered
             </p>
           </Link>
@@ -89,7 +89,7 @@ function WhatWeDo() {
             <h4>Language Exam Preparation</h4>
             <p className="whatwedo-p">
               We prepare and guide our students at various International GOETHE
-              ZERTIFIKAT AND DELF-DALF examinations on each level. Your success
+              ZERTIFIKAT,DELF-DALF, SPANISH AND PORTUGUESE examinations on each level. Your success
               is very important to us.
             </p>
           </Link>

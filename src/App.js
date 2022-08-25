@@ -21,6 +21,8 @@ import Cart from "./pages/Cart/Cart";
 import "./index.css";
 import "react-toastify/dist/ReactToastify.css";
 import Checkout from "./pages/Cart/Checkout";
+import Spanish from "./pages/Spanish/Spanish";
+import Portuguese from "./pages/Portuguese/Portuguese";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -56,6 +58,12 @@ function App() {
               </Route>
               <Route exact path="/french">
                 <French />
+              </Route>
+              <Route exact path="/spanish">
+                <Spanish />
+              </Route>
+              <Route exact path="/portuguese">
+                <Portuguese />
               </Route>
               <Route exact path="/about-us">
                 <AboutUs />

@@ -147,6 +147,7 @@
 
 nav {
   display: block;
+  height: 100%;
 }
 
 ul {
@@ -157,12 +158,12 @@ ul {
 
 li {
   list-style: none;
-  /* font-size: 5rem; */
-  font-size: 3rem;
+  /* font-size: 3rem; */
+  font-size: 2rem;
   font-weight: 900;
   cursor: pointer;
-  /* height: 135px; */
-  height: 100px;
+  /* height: 100px; */
+  height: 70px;
   overflow: hidden;
   position: relative;
   width: 700px;
@@ -350,9 +351,11 @@ li {
 
   li {
     list-style: none;
-    font-size: 2rem;
+    /* font-size: 2rem; */
+    font-size: 1rem;
     font-weight: 700;
-    height: 60px;
+    /* height: 60px; */
+    height: 40px;
     overflow: hidden;
     position: relative;
     width: 100%;
@@ -363,9 +366,10 @@ li {
   }
 
   .info {
-    width: 100%;
+    /* width: 100%;
     margin-top: 40px;
-    padding-right: 10px;
+    padding-right: 10px; */
+    display: none;
   }
 
   .info h3 {
@@ -380,7 +384,7 @@ li {
 
   .locations {
     position: static;
-    margin-top: 50px;
+    margin-top: 20px;
     font-size: 0.7rem;
     font-weight: 500;
     width: 100%;

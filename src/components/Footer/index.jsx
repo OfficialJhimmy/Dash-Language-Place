@@ -3,10 +3,9 @@ import { GrSend } from "react-icons/gr";
 import { BiMailSend } from "react-icons/bi";
 import { TiLightbulb } from "react-icons/ti";
 import { BiPhoneOutgoing } from "react-icons/bi";
-import { ImFacebook2 } from "react-icons/im";
+import { ImFacebook2, ImLinkedin } from "react-icons/im";
 // import { RiTwitterFill } from "react-icons/ri";
 import { RiInstagramFill } from "react-icons/ri";
-import { FaWhatsapp } from "react-icons/fa";
 import "./index.css";
 
 function Footer() {
@@ -67,7 +66,7 @@ function Footer() {
                 <RiInstagramFill className="social__icons" />
               </a>
               <a href="/" target="_blank" rel="noreferrer">
-                <FaWhatsapp className="social__icons" />
+                <ImLinkedin className="social__icons" />
               </a>
             </div>
           </div>
@@ -88,7 +87,7 @@ function Footer() {
             <span>
               Developed by{" "}
               <a
-                href="https://twitter.com/jhimmyofficial"
+                href="https://jhimmyofficial.netlify.app"
                 target="_blank"
                 rel="noreferrer"
               >

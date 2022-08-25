@@ -15,7 +15,7 @@ function Section1() {
         <p>
           Hallo! Bonjour! We are <b>DASH.</b> A <b>LANGUAGE SCHOOL</b> that
           helps people across all ages, groups, careers learn the Educational,
-          Cultural and Linguistic ways of some Deutsch and/or French-speaking
+          Cultural and Linguistic ways of some Deutsch,French, Spanish and/or Portuguese-speaking
           countries like:
           <ReactCountryFlag
             countryCode="DE"
@@ -60,6 +60,29 @@ function Section1() {
             className="flag"
           />
           <span>SWITZERLAND </span>
+          <ReactCountryFlag
+            countryCode="ES"
+            svg
+            style={{
+              width: "2em",
+              height: "1em",
+            }}
+            title="ES"
+            className="flag"
+          />
+          <span>SPAIN </span>
+          <ReactCountryFlag
+            countryCode="PT"
+            svg
+            style={{
+              width: "2em",
+              height: "1em",
+            }}
+            title="PT"
+            className="flag"
+          />
+          <span>PORTUGAL </span>
+
         </p>
       </div>
 

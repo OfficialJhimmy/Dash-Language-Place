@@ -15,7 +15,7 @@ export const FrenchData = [
     duration: "9 Weeks",
     about:
       "A2 is an Elementary course. You learn how to express yourself adequately in familiar and everyday Situations like: Shopping, a local geographical description etc.",
-    id: 4,
+    id: 6,
   },
 
   {
@@ -25,7 +25,7 @@ export const FrenchData = [
     duration: "9 Weeks",
     about:
       "B1 is an intermediate course that extensively helps you learn to write, read, understand and speak complex vocabularies. At this stage, you have a command of the essentials of the language.",
-    id: 6,
+    id: 10,
   },
 
   {
@@ -35,16 +35,16 @@ export const FrenchData = [
     duration: "9 Weeks",
     about:
       "B2 is an Upper-Intermediate Course. In this course, you have complete control over the language. You can easily discuss difficult topics, work-related issues.",
-    id: 8,
+    id: 14,
   },
 
   {
     countrycode: "FR",
-    title: " Learn German C1 (Advanced)",
+    title: " Learn French C1 (Advanced)",
     price: 120000,
     duration: "9 Weeks",
     about:
       "C1 is an Advanced Course. In this course, you will learn to express yourself clearly and fluently in all categories and topics by reading, listening, writing and speaking as well as understanding enormous numbers of topics like native speakers.",
-    id: 10,
+    id: 18,
   },
 ];
