@@ -9,9 +9,9 @@ function BannerContainer() {
       <div className="banner__content-container">
         <div className="banner__content">
           <h2>
-            Learn, Speak and live
+            Learn, Speak and Live
             <br />
-            a new Language
+            a New Language
             <br />
           </h2>
           <p>

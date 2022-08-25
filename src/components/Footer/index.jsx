@@ -4,7 +4,7 @@ import { BiMailSend } from "react-icons/bi";
 import { TiLightbulb } from "react-icons/ti";
 import { BiPhoneOutgoing } from "react-icons/bi";
 import { ImFacebook2, ImLinkedin } from "react-icons/im";
-// import { RiTwitterFill } from "react-icons/ri";
+import { RiTwitterFill } from "react-icons/ri";
 import { RiInstagramFill } from "react-icons/ri";
 import "./index.css";
 
@@ -55,9 +55,13 @@ function Footer() {
               >
                 <ImFacebook2 className="social__icons" />
               </a>
-              {/* <a href="/" target="_blank" rel="noreferrer">
+              <a
+                href="https://twitter.com/deutschschool"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <RiTwitterFill className="social__icons" />
-              </a> */}
+              </a>
               <a
                 href="https://www.instagram.com/dash_language_school/"
                 target="_blank"
@@ -65,7 +69,11 @@ function Footer() {
               >
                 <RiInstagramFill className="social__icons" />
               </a>
-              <a href="/" target="_blank" rel="noreferrer">
+              <a
+                href="https://www.linkedin.com/company/dash-language-school/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <ImLinkedin className="social__icons" />
               </a>
             </div>
