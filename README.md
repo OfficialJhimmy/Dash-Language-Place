@@ -1,6 +1,59 @@
-# Getting Started with Create React App
+ # Dash Language School - A Language School to learn foreign languages.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The main purpose of this project was to provide a payment and informational platform for a language school with offices in Lagos, Nigeria. This website was created to provide various users with comprehensive information on the four foreign languages the school offers. Using a secure payment gateway, a user can preview a course, choose whether it fits into their schedule, then pay for it ("Paystack").
+
+## Table of contents
+
+- [Overview](#overview)
+  - [The Project](#the-project)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+- [Author](#author)
+
+
+## Overview
+
+### The Project
+Major Components of the Project includes
+1 Optimal layout for the site depending on user's device's screen size
+2 Accordion
+3 Payment Gateway
+4 Carousel slider for testimonials
+5 Interactive form fields
+6 Table
+7 Add to Cart functionality
+
+### Links
+
+- Live Site URL: https://dashlanguageschool.com
+
+### Images of the project
+
+<img alt="Screenshot of my Work" width="500px" src="./src/assets/images/screenshot-home.png"/>
+<img alt="Screenshot of my Work" width="500px" src="./src/assets/images/screenhot-german.png"/>
+<img alt="Screenshot of my Work" width="500px" src="./src/assets/images/screenshot-french.png"/>
+<img alt="Screenshot of my Work" width="500px" src="./src/assets/images/screenshot-services.png"/>
+
+
+### Built with
+
+- React.Js
+- Redux
+- Styled Components
+- GSAP
+- React Router
+- CSS Media Queries
+- Mobile-first workflow
+- [React Slick](https://react-slick.neostack.com/) For Carousel
+
+## Author
+
+- Twitter - [@jhimmyofficial](https://www.twitter.com/@jhimmyofficial)
+
+## Running the Project
+
+The project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
@@ -10,61 +63,3 @@ In the project directory, you can run:
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
