@@ -30,10 +30,9 @@ Major Components of the Project includes
 
 ### Images of the project
 
-<img alt="Screenshot of my Work" width="500px" src="./src/assets/images/screenshot-home.png"/>
-<img alt="Screenshot of my Work" width="500px" src="./src/assets/images/screenhot-german.png"/>
-<img alt="Screenshot of my Work" width="500px" src="./src/assets/images/screenshot-french.png"/>
-<img alt="Screenshot of my Work" width="500px" src="./src/assets/images/screenshot-services.png"/>
+<img alt="Screenshot of my Work" width="500px" src="./src/assets/images/screenshot-home.webp"/>
+<img alt="Screenshot of my Work" width="500px" src="./src/assets/images/screenshot-cart.webp"/>
+<img alt="Screenshot of my Work" width="500px" src="./src/assets/images/screenhot-german.webp"/>
 
 
 ### Built with
