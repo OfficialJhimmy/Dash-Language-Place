@@ -32,7 +32,7 @@ function Footer() {
             <p>
               <a href="mailto:Dashlanguageschool@gmail.com">
                 <BiMailSend className="keep-talking__icon" />
-                Dashlanguageschool@gmail.com
+                info@dashlanguageschool.com.ng
               </a>
             </p>
             <p>
