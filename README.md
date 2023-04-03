@@ -26,7 +26,7 @@ Major Components of the Project includes
 
 ### Links
 
-- Live Site URL: https://dashlanguageschool.com
+- Live Site URL: https://dashlanguageschool.com.ng
 
 ### Images of the project
 
